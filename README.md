@@ -41,28 +41,44 @@ Written in **Placeholder**
 
 [Melvin Kisten](https://github.com/iammelvink 'Melvin Kisten\'s GitHub page') 
 
-AMAHLE MAKHUNGA
+[AMAHLE MAKHUNGA](https://github.com/aenhle05)
 
-BUHLENI MKHWANAZI
+[BUHLENI MKHWANAZI](https://github.com/Buhleni5608)
 
-BUHLE MSUTHU
+[BUHLE MSUTHU](https://github.com/BuhleMsuthu)
 
-KHOTSO MOLEKO
+[KHOTSO MOLEKO](https://github.com/AbutiK500)
 
-KGATLISO PHUTANG
+[KGATLISO PHUTANG](https://github.com/tlisow24kp)
 
 ONELE COKI
 
-S’PHEPHELO MBHAMALI
+[S’PHEPHELO MBHAMALI](https://github.com/Mveni07)
 
-TINTSWALO SILINDA
+[TINTSWALO SILINDA](https://github.com/TintswaloSilinda)
 
-TUMI TLATLA
+[TUMI TLATLA](https://github.com/Initial-DTech)
 
-ZINHLE NGOZO 
+[ZINHLE NGOZO](https://github.com/Zinhle08) 
 
 
-GitHub: @"Group members"
+GitHub: @aenhle05
+
+        @Buhleni5608
+        
+        @BuhleMsuthu
+        
+        @AbutiK500
+        
+        @tlisow24kp
+        
+        @Mveni07
+        
+        @TintswaloSilinda
+        
+        @Initial-DTech
+        
+        @Zinhle08
 
 LinkedIn: [Melvin Kisten](https://www.linkedin.com/in/iammelvink 'Melvin Kisten\'s LinkedIn page')
 
