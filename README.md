@@ -40,16 +40,25 @@ Written in **Placeholder**
 "Group members and lecturer"
 
 [Melvin Kisten](https://github.com/iammelvink 'Melvin Kisten\'s GitHub page') 
+
 AMAHLE MAKHUNGA
 
 BUHLENI MKHWANAZI
-BUHLE MSUTHU  
-KHOTSO MOLEKO 
-KGATLISO PHUTANG                                                                                      
-ONELE COKI 
-S’PHEPHELO MBHAMALI                                                                                        
-TINTSWALO SILINDA                                                                                       
-TUMI TLATLA                                                                                   
+
+BUHLE MSUTHU
+
+KHOTSO MOLEKO
+
+KGATLISO PHUTANG
+
+ONELE COKI
+
+S’PHEPHELO MBHAMALI
+
+TINTSWALO SILINDA
+
+TUMI TLATLA
+
 ZINHLE NGOZO 
 
 
