@@ -51,8 +51,6 @@ Written in **Placeholder**
 
 [KGATLISO PHUTANG](https://github.com/tlisow24kp)
 
-ONELE COKI
-
 [S’PHEPHELO MBHAMALI](https://github.com/Mveni07)
 
 [TINTSWALO SILINDA](https://github.com/TintswaloSilinda)
