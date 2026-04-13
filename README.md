@@ -40,7 +40,8 @@ Written in **Placeholder**
 "Group members and lecturer"
 
 [Melvin Kisten](https://github.com/iammelvink 'Melvin Kisten\'s GitHub page') 
-AMAHLE MAKHUNGA 
+AMAHLE MAKHUNGA
+
 BUHLENI MKHWANAZI
 BUHLE MSUTHU  
 KHOTSO MOLEKO 
