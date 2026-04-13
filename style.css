@@ -1,0 +1,346 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0)), url("Home.jpg");
+    background-size: cover;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: gold;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 900;
+    margin: 80px 0;
+    text-align: left;
+}
+
+h1 { 
+  color: gold; 
+  font-size: 35px; 
+}
+
+h2, li { 
+  color: gold; 
+}
+
+p {
+    font-size: 1rem;
+    color: gold;
+}
+
+.index-p {
+    font-family: "Merienda", cursive;
+    font-weight: 300;
+    color: gold;
+}
+
+.home-p {
+    color: aliceblue;
+}
+
+/* Navigation */
+nav {
+    flex: 1;
+    gap: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    background: black;
+    padding: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: black;
+    background-color: gold;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    background-image: url('restaurant.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+.hero h1, .hero p, .hero a {
+    position: relative;
+    z-index: 1;
+}
+
+/* Buttons */
+button, .btn {
+    color: black;
+    background-color: gold;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+    background-color: black;
+    color: gold;
+}
+
+/* Section Headings */
+.full h2 { 
+  color: gold; 
+}
+.full h1, .nachos h1, .roast h1,
+.boneless h1, .beef h1, .enjoy h1, 
+.fried h1 {
+  color: gold; 
+}
+.enjoy h2 { 
+  color: gold; 
+}
+.enjoy p { 
+  color: gold; 
+}
+
+/* Item Boxes */
+.item-box1, .item-box2, .item-box3,
+.item-box4, .item-box5, .item-box6, .item-box7 {
+  display: flex;
+  align-items: center;
+}
+
+
+/* Booking Section */
+.booking {
+    background-color: black;
+    color: gold;
+    text-align: center;
+}
+
+.booking h2 {
+    color: gold;
+}
+
+.booking input {
+    padding: 10px;
+    width: 250px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    width: 260px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Images */
+img {
+  width: 600px;
+  height: 500px;
+}
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+
+/* Logo */
+.logo img {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: gold;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    border-top: 1px solid gold;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 0.9em;
+}
+
+/* Extras */
+.top-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search-section {
+    text-align: center;
+    margin: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid gold;
+    border-radius: 5px;
+}
+
+.meal-card {
+    background: #222;
+    color: white;
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: gold;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-top:hover {
+    background: black;
+    color: gold;
+}
+
+#mealResults {
+  display: flex;
+  flex-wrap: wrap;       /* allows multiple cards side by side */
+  justify-content: center;
+  gap: 20px;             /* spacing between cards */
+  max-width: 1200px;     /* keeps results from stretching full screen */
+  margin: 0 auto;        /* centers the results */
+}
+
+.meal-card {
+  background: #222;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 250px;          /* fixed card width */
+  text-align: center;
+}
+
+.meal-card img {
+  width: 100%;           /* fits inside the card */
+  height: auto;          /* keeps aspect ratio */
+  border-radius: 5px;
+}
+
+.kim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.enjoy h2, p {
+    text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hero {
+    padding: 60px 10px;
+  }
+
+  .btn {
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+}
